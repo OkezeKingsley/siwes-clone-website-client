@@ -1,0 +1,38 @@
+.home-container{
+    width: 95%;
+    margin:auto;
+    height: 100%;
+}
+
+.home-container-head-text{padding: 20px 0;}
+
+.home-top-instruction-text{margin-bottom: 30px;
+ }
+
+.home-box-instruction {
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: rgba(82, 138, 241, 0.5); /* fade blue background */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* align icon and text to the left */
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    color: blue;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  .home-box-instruction-icon {
+    font-size: 20px; /* increase icon size */
+    color: blue; /* match text color */
+    margin-right: 10px; /* add space between icon and text */
+  }
+  
+  .home-box-instruction-text {
+    margin: 0; /* remove default paragraph margin */
+  }
+
+.home-container-bottom-instruction{position: absolute;
+                                  bottom: 0;}

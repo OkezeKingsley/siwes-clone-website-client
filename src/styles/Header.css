@@ -1,0 +1,16 @@
+* {margin: 0;
+   padding: 0;}
+
+.header-container {
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .header-uniosun-text {
+    text-align: center;
+    line-height: 100px; /* matches the height of the header container */
+    color: white;
+  }

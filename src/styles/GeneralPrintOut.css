@@ -1,0 +1,58 @@
+.general-print-out-container {
+  width: 95%;
+  margin: auto;
+  }
+  
+  .general-print-out-header-text{padding: 10px 0;
+                                color: green;}
+  .underline {
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .general-print-out-user-info {
+    margin-bottom: 20px;
+    
+  }
+  
+  .general-print-out-username {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .general-print-out-user-details {
+    display: flex;
+  }
+
+  .general-print-out-user-details p:nth-child(1) {
+    padding-right: 10px;
+  }
+
+  .general-print-out-user-details p:nth-child(2) {
+    padding-left: 10px;
+  }
+  
+  .general-print-out-note-text{margin-top: 30px;
+                            margin-bottom: 30px;}
+
+  .general-print-out-print-form {
+    border: 1px solid green;
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.2);
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .checkmark {
+    color: green;
+    margin-right: 10px;
+  }
+  
+  .general-print-out-print-text {
+    text-decoration: underline;
+    color: green;
+  }

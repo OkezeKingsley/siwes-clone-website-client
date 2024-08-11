@@ -1,0 +1,37 @@
+.sidebar-container {
+  background-color: #fcfcfc; /* Changed to a lighter gray background */
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  /* color: lightgreen; */
+}
+
+.sidebar-head {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.underline {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.sidebar-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Increased the margin to 20px for more space between list items */
+  cursor: pointer;
+}
+
+.sidebar-list li:hover {
+  background-color: #ddd;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.sidebar-text {
+  margin: 0;
+}

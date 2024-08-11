@@ -1,0 +1,32 @@
+.siwes-info-table{
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: calc(100vh - 130px);
+    border-collapse: collapse;
+}
+
+.siwes-info-table-header{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.siwes-info-table-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.siwes-info-table-list p {
+    margin-left: 10px;
+}
+
+.siwes-info-table-list svg {
+    font-size: 20px;
+    color: #007bff;
+}
