@@ -112,6 +112,12 @@ const SignUp = () => {
         {error && <p className="error-message">{error}</p>}
         <button type="submit">Sign Up</button>
       </div>
+      <div className="sign-up-bottom-instruction-container">
+         <p>
+            Already have an account? Click here to <b style={{color: 'green'}}
+            onClick={() => navigate("/")}>Login</b>!
+         </p>
+       </div>
     </form>
     </div>
   );

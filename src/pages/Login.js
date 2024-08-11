@@ -75,11 +75,12 @@ const Login = () => {
                     <button type="submit">Login</button>
                 </form>
             </div>
-            {/* <p>IMPORTANT NOTICE</p>
-            <p>
-                Only Students who have successfully created their accounts can Sign In HERE.
-                If you have not completed your new account registration, Click HERE to do so NOW!
-            </p> */}
+            <div className="login-instruction-container">
+                <p>
+                   Don't have an account? Click here to <b style={{color: 'green'}}
+                    onClick={() => navigate("/sign-up")}>Sign up</b>!
+                </p>
+            </div>
         </div>
     );
 };

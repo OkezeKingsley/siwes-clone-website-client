@@ -9,7 +9,7 @@ import SignUp from './pages/SignUp';
 
 // Set the base URL for Axios
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
-console.log('default url is', process.env.REACT_APP_BASE_URL)
+// console.log('default url is', process.env.REACT_APP_BASE_URL)
 function App() {
     return (
          <Router>
