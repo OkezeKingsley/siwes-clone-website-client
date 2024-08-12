@@ -61,7 +61,7 @@ function GeneralPrintOut() {
         <div className="general-print-out-print-form">
           <span className="checkmark">&#10004;</span>
           <p className="general-print-out-print-text" onClick={() => downloadFile('assessment')}>
-            Print your SIWES daily assessment form
+            Print your SIWES monthly assessment form
           </p>
         </div>
       </div>
