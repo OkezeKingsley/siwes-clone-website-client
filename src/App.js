@@ -10,8 +10,7 @@ import SupervisorLogin from './pages/SupervisorLogin';
 import SupervisorSignUp from './pages/SupervisorSignUp';
 import SupervisorDashboard from './pages/SupervisorDashboard';
 // Set the base URL for Axios
-axios.defaults.baseURL = "http://localhost:5000";
- //process.env.REACT_APP_BASE_URL
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 // console.log('default url is', process.env.REACT_APP_BASE_URL)
 function App() {
     return (

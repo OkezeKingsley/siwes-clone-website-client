@@ -10,7 +10,7 @@ const SupervisorDashboard = () => {
     axios.get('/supervisor/dashboard')
       .then(response => {
         console.log(response.data); // Log the response data to the console
-        setStudents(response.data.students);
+        setStudents(response.data);
       })
       .catch(error => {
         console.error(error);
