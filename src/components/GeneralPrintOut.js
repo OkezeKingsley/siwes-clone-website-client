@@ -18,7 +18,7 @@ function GeneralPrintOut() {
   // Function to handle file download
   const downloadFile = async (fileType) => {
     try {
-      const response = await axios.get(`/download-${fileType}`, { responseType: 'blob' });
+      const response = await axios.get(`/student/download-${fileType}`, { responseType: 'blob' });
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement('a');
       link.href = url;

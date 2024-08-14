@@ -1,9 +1,13 @@
 /* src/LoginForm.css */
-.login-container{height: 100vh;}
-.login-form-container{
+.student-login-container {
+    height: 100vh;
+  }
+  
+  .student-login-form-container {
     margin-top: 30px;
-}
-.login-form {
+  }
+  
+  .student-login-form {
     max-width: 400px;
     margin-top: 30px;
     margin: auto;
@@ -12,31 +16,31 @@
     border-radius: 10px;
     background: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.login-form h2 {
+  }
+  
+  .student-login-form h2 {
     margin-bottom: 1em;
     text-align: center;
-}
-
-.form-group {
+  }
+  
+  .student-login-form-group {
     margin-bottom: 1em;
-}
-
-.form-group label {
+  }
+  
+  .student-login-form-group label {
     display: block;
     margin-bottom: 0.5em;
-}
-
-.form-group input {
+  }
+  
+  .student-login-form-group input {
     width: calc(100% - 22px);
     padding: 10px;
     font-size: 1em;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button[type="submit"] {
+  }
+  
+  .student-login-submit-button {
     width: 100%;
     padding: 10px;
     font-size: 1em;
@@ -45,11 +49,13 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button[type="submit"]:hover {
+  }
+  
+  .student-login-submit-button:hover {
     background-color: rgb(67, 192, 67);
-}
-
-.login-instruction-container{text-align: center;
-                             padding-top: 15px;}
+  }
+  
+  .student-login-instruction-container {
+    text-align: center;
+    padding-top: 15px;
+  }

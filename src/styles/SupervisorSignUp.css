@@ -1,0 +1,52 @@
+/* src/styles/SupervisorSignUp.css */
+.supervisor-signup-wrapper {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .supervisor-signup-form {
+    padding: 1em;
+  }
+  
+  .supervisor-signup-group {
+    margin-bottom: 1em;
+  }
+  
+  .supervisor-signup-input-container {
+    padding: 0 10px;
+  }
+  
+  .supervisor-signup-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .supervisor-signup-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .supervisor-signup-button:hover {
+    background-color: rgb(67, 192, 67);
+  }
+  
+  .supervisor-signup-error {
+    text-align: center;
+    color: red;
+    padding: 10px 0;
+  }
